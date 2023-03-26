@@ -24,4 +24,5 @@ def copyOrigMesh( obj ):
     cmds.setAttr( tempOrig+".intermediateObject", 0)
     cmds.sets ( tempOrig, e=1, forceElement = 'initialShadingGroup' )
     print (headTemp)
+    print "add extra print"
     return headTemp[0]
